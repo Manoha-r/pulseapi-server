@@ -1,14 +1,23 @@
+
 {
   "name": "pulseapi-server",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "Secure REST API with JWT authentication, role-based access control, and user management",
+  "main": "src/server.js",
   "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest-api",
+    "jwt-authentication"
+  ],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "compression": "^1.8.1",

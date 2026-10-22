@@ -5,7 +5,6 @@ const compression = require("compression");
 const cookieParser = require("cookie-parser");
 const jwt = require("jsonwebtoken");
 const morgan = require("morgan");
-const router = require("./routes/health.routes.js");
 const authRouter = require("./routes/auth.routes.js");
 const roleRouter = require("./routes/role.auth.routes.js");
 const path = require('path');
