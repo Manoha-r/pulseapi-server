@@ -53,7 +53,7 @@ const options = {
   },
 
   // Location of Swagger JSDoc comments
-  apis: ["./routes/*.js"],
+  apis: ["./src/routes/*.js"],
 };
 
 const swaggerSpec = swaggerJsdoc(options);
