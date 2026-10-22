@@ -13,7 +13,7 @@ const userRouter = require("./routes/user.route.js");
 const adminRouter = require("./routes/admin.routes.js");
 const {generalLimiter} = require("./middleware/rateLimiter.js");
 const swaggerUi = require("swagger-ui-express");
-const swaggerSpec = require("./config/swagger.js");
+const swaggerSpec = require("./confiG/swagger.js");
 const app = express();
 
 
